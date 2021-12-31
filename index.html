@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOL Buenos Aires</title>
+  <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="./styles/normalize.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet" />
+
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+  <!-- --- -->
+
+  <title>SOL Buenos Aires</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="navlogo">
+                <img src="./assets/images/logonavbar.png" alt="">
+            </a>
+            <div class="navbar" id="navbar">
+                <a class="active"><img src="./assets/images/logonavbar.png" alt=""></a>              
+                <a href="#" >Home</a>
+                <a href="./en/programs.html">Programs</a>
+                <a href="./en/aboutus.html">About</a>
+                <a href="./en/contact.html">Contact</a>
+                <a href="./en/faqs.html">FAQs</a>        
+                <a href="#" class="flag-nav">English<img src="./assets/reino-unido.png" class="en en-responsive" id="flag" name="en"></a>      
+                <a href="./es/index_es.html" class="flag-nav">Latinamerica Spanish <img src="./assets/argentina.png" class="es es-responsive" id="flag" name="es"></a> 
+                <a href="javascript:void(0);" class="icon" id="hamburger">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="navflags">
+                <div id="lang-switch">
+                    <a href="./es/index_es.html"><img  src="./assets/argentina.png" class="es" id="flag" name="es"></a>
+                    <img src="./assets/reino-unido.png" class="en active-flag" id="flag" name="en">
+                </div>
+            </div>
+        </nav>      
+    </header>
+
+    <section class="hero">
+        <div class="div1">
+            <img src="./assets/ilustraciones/ilus 1.png" alt="">
+        </div>
+        <div class="hero-container">
+            <div class="hero-principal observer">
+                <h1>
+                    Talk, learn, communicate </br> and enjoy the beauty of Spanish.
+                </h1>
+                <p>Select the best option for you</p>        
+                <div class="hero-btnContainer">                        
+                    <button><a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20saber%20mas%20sobre%20los%20cursos%20ONLINE.">Online</a></button>
+                    <button><a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20saber%20mas%20sobre%20los%20cursos%20en BUENOS AIRES.">in Buenos Aires</a></button>                
+                </div>
+            </div>
+        </div>
+        <div class="div2">
+            <img src="./assets/ilustraciones/Mask Group.png" alt="">
+        </div>
+        <div class="div3">
+            <img src="./assets/ilustraciones/Mask Group2.png" alt="">
+        </div>
+    </section>
+
+    <main>
+        <!-- DESCRIPTION FORM  -->
+        <div class="description-container">
+            <div class="description">          
+                <h2>Get a quote</h2 style="font-size:30px;font-weight: bold;">                       
+            <div>
+                <form  id="my-form-index" action="https://formspree.io/f/myyozjlw" method="POST" class="form-description">
+                    <div class="form-group-desc">
+                        <label for="email">Enter your email</label>              
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group-desc">
+                        <label for="modalidad">Select your modality</label>              
+                        <select name="modalidad" id="modalidad">
+                            <option value="" >Online</option>
+                            <option value="">Buenos Aires</option>
+                        </select>
+                    </div>              
+                    <button id="my-form-button-index" >Send</button>
+                </form>            
+            </div>
+            
+            </div>
+        </div>
+
+       <!--------- GOALS --------->
+        <div class="container-full">
+
+            <div class="goals-img1"><img src="./assets/ilustraciones/ilus 4.png" alt=""></div>
+            <div class="goals-img2"><img src="./assets/ilustraciones/ilus 5.png" alt=""></div>
+
+            <!-- SWIPER GOALS MAX-WIDTH 768PX -->
+            <div class="goals responsive-goals observer">            
+                <div class="container">
+                    <div class="goals-icon">
+                        <img src="./assets/ilustraciones/diana.png" alt="">
+                    </div>
+                    <div class="goals-head">
+                        <h2>Learn by talking</h2>
+                    </div>
+                    <div class="goals-body">
+                        <p>SOL is a group of native teachers that besides teaching you Spanish they will help you to have a true experience of immersion in Latin American culture.
+                            </br></br>
+                            In SOL we connect your communicative needs and cultural interest with your personal pace of learning, so you can speak Spanish comfortably.                            
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="container swiper-autoplay" id="bubble-container">
+                    <div class="swiper-wrapper" id="bubble-swiper">
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-comment-dots"style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Speak Spanish</h2>                
+                                <p>Learn the language in a practical way and achieve your communication goals.</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-lightbulb" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Tune in to the local culture</h2>                
+                                <p>Meet customs, music, art, history and lifestyles</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-user-friends" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Meet new people</h2>                
+                                <p>Use the language authentically in real interactions.</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-map" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Learn while having a good time</h2>                
+                                <p>Take your lessons in a comfortable and relaxed atmosphere.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination pagination-goals"></div>
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                </div>
+            </div>         
+            
+            <!--- FULL GOALS --->
+            <div class="goals full-goals observer">
+                <div class="container">
+                    <div class="goals-icon">
+                        <img src="./assets/ilustraciones/diana.png" alt="">
+                    </div>
+                    <div class="goals-head">
+                        <h2>Learn by talking</h2>
+                    </div>
+                    <div class="goals-body">
+                        <p>SOL is a group of native teachers that besides teaching you Spanish they will help you to have a true experience of immersion in Latin American culture.
+                            </br></br>
+                            In SOL we connect your communicative needs and cultural interest with your personal pace of learning, so you can speak Spanish comfortably.                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="bubble ">
+                        <div class="bubble-div">
+                            <i class="far fa-comment-dots"style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Speak Spanish</h2>                
+                            <p>Learn the language in a practical way and achieve your communication goals.</p>
+                        </div>
+                    </div>
+
+                    <div class="bubble bubble-relative">
+                        <div class="bubble-div">
+                            <i class="far fa-lightbulb" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Tune in to the local culture</h2>                
+                            <p>Meet customs, music, art, history and lifestyles</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bubble">
+                        <div class="bubble-div">
+                            <i class="far fa-user-friends" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Meet new people</h2>                
+                            <p>Use the language authentically in real interactions.</p>
+                        </div>
+                    </div>
+
+                    <div class="bubble bubble-relative">
+                        <div class="bubble-div">
+                            <i class="far fa-map" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Learn while having a good time</h2>                
+                            <p>Take your lessons in a comfortable and relaxed atmosphere.</p>
+                        </div>
+                    </div>              
+                </div>            
+            </div>        
+        </div>
+
+
+        <!------------- PROGRAMS ----------------->
+        <div class="programas">
+            <h2 style="font-weight: bold;font-size: 40px; text-align: center;margin-bottom: 20px;">Programs</h2>
+
+            <!-- -------------------SWIPER-SLIDES PROGRAMAS RESPONSIVE ------------------->
+            <!-- Slider main container -->
+            <div class="swiper-responsive-programs observer">            
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">                
+                        <div class="card">
+                            <div class="card-img card-img-1"></div> 
+                            <div>
+                                <span><i class="fas fa-user-friends" style="font-size:50px;margin:10px 0 10px 0;"></i></span>
+                                <h2>Customized<br>lessons</h2>
+                            </div>
+                            <a href="./en/programs.html" class="a-card-responsive">See the program</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card"> 
+                            <div class="card-img card-img-2"></div>   
+                            <div>
+                                <span ><i class="fas fa-palette" style="font-size:50px;margin:10px 0 10px 0;"></i></span>
+                                <h2>Language<br>and culture</h2>  
+                            </div>        
+                            <a href="./en/programs.html" class="a-card-responsive">See the program</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-img card-img-3"></div>
+                            <div>
+                                <span><i class="fas fa-university" style="font-size:50px;margin:10px 0 10px 0;"></i></span> 
+                                <h2>University</br>and Work </h2>       
+                            </div>          
+                            <a href="./en/programs.html" class="a-card-responsive">See the program</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-img card-img-4"></div>
+                            <div>                            
+                                <span ><i class="fas fa-photo-video" style="font-size:50px;margin:10px 0 10px 0;"></i></span>
+                                <h2>Latin American<br>films</h2>     
+                            </div>      
+                            <a href="./en/programs.html" class="a-card-responsive">See the program</a>
+                        </div>
+                    </div>     
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination pagination-cards" style="margin-top: 20px;"></div>
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+            </div>
+
+            <!-- -------------------PROGRAMS FULL-WIDTH ------------------->
+            <div class="full-width-programs observer">                              
+                <div class="card card-full ">
+                    <div class="card-img card-img-1"></div> 
+                    <div>
+                        <span><i class="fas fa-user-friends" style="font-size:50px;margin:10px 0 10px 0;"></i></span>
+                        <h2>Customized<br>lessons</h2>
+                    </div>
+                    <a href="./en/programs.html" class="a-card-full">See the program</a>
+                </div>
+            
+                <div class="card card-full"> 
+                    <div class="card-img card-img-2"></div>   
+                    <div>
+                        <span ><i class="fas fa-palette" style="font-size:50px;margin:10px 0 10px 0;"></i></span>
+                        <h2>Language<br>and culture</h2>  
+                    </div>        
+                    <a href="./en/programs.html" class="a-card-full">See the program</a>
+                </div>
+                        
+                <div class="card card-full">
+                    <div class="card-img card-img-3"></div>
+                    <div>
+                        <span><i class="fas fa-university" style="font-size:50px;margin:10px 0 10px 0;"></i></span> 
+                        <h2>University</br>and Work</h2>       
+                    </div>          
+                    <a href="./en/programs.html" class="a-card-full">See the program</a>
+                </div>
+                        
+                <div class="card card-full">
+                    <div class="card-img card-img-4"></div>
+                    <div>                            
+                        <span ><i class="fas fa-photo-video" style="font-size:50px;margin:10px 0 10px 0;"></i></span>
+                        <h2>Latin Americasn<br>film</h2>     
+                    </div>      
+                    <a href="./en/programs.html" class="a-card-full">See the program</a>
+                </div>                                    
+            </div>
+
+        </div>
+
+        <!------------- LEVELS ----------------->
+        <section class="full-container-levels ">
+            <div class="container-levels ">
+                <h3>Levels</h3>
+                <div class="levels observer">
+                    <div class="lvl-a">
+                        <h2>Beginner</h2>
+                        <div>
+                            <div>
+                                <div class="lvl principiante">A1</div>
+                                <p>At this level you will learn to express your tastes and preferences, and to talk about your plans and intentions
+                                    You will know simple idiomatic expressions.
+                                </p>
+                            </div>
+                            <div>
+                                <div class="lvl principiante">A2</div>
+                                <p>In this course you will learn to talk about past experiences and durations of time, connect ideas and tell anecdotes.                  
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="lvl-b">
+                        <h2>Intermediate</h2>
+                        <div>
+                            <div>   
+                                <div class="lvl intermedio">B1</div>
+                                <p>At this level you will learn to narrate better in the past, to express causes and probabilities, and to talk about possible and future plans.                        
+                                </p>
+                            </div>
+                            <div>
+                                <div class="lvl intermedio">B2</div>
+                                <p>In this course you will learn to give opinions and advice, you will be able to express all kinds of emotions, assessments and discuss hypothetical situations.                                         
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lvl-c">
+                        <h2>Avanced</h2>
+                        <div>
+                            <div>
+                                <div class="lvl avanzado">C1</div>
+                                <p>At this level you will learn better to persuade and convince, give precise instructions, make definitions and you will be able to talk in depth about hypothetical situations of the past,  present and future. 
+                                </p>
+                            </div>
+                            <div>
+                                <div class="lvl avanzado">C2</div>
+                                <p>In this course you will learn to use a more precise and formal Spanish, with focus on pronunciation and correct writing, as well as colloquial and popular idiomatic expressions.                                     
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!------------- COMMUNITY ------------->
+        <section class="comunidad">
+
+            <img class="credencial" src="./assets/images/ilustracion_credencial.png" alt="">
+            <img class="videopng" src="./assets/images/ilustracion_video.png" alt="">
+            <img class="titulo" src="./assets/images/ilustracion_titulo.png" alt="">
+            <img class="pelota" src="./assets/images/ilustracion_pelota.png" alt="">
+
+            <div class="comunidad-head observer">
+                <p>Community Benefits</p>
+                <h2>Get benefits and discounts for being part of SOL</h2>
+                <p>Connect with our friends:</p>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper-comunnity observer">
+                <!-- Additional required wrapper -->                
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">                
+                        <div class="comunidad-option">
+                            <h2>Temporary rentals</h2>
+                            <p>
+                                With Sol you can rent an apartment at a discount during your stay in Buenos Aires
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide ">
+                        <div class="comunidad-option">
+                            <h2>Yoga. Online and in-person classes</h2>
+                            <p>Train your body and mind with Yoga classes in Spanish</p>                                                       
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide ">
+                        <div class="comunidad-option">
+                            <h2>DJ Courses</h2>
+                            <p>Un estudio para conectar con la escena electrónica de Buenos Aires, entrenar en las bandejas o empezar desde 0.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide ">
+                        <div class="comunidad-option">
+                            <h2>Audiovisual poetry workshop</h2>
+                            <p>Connect with your creativity through video art.
+                            </p>
+                        </div>   
+                    </div>
+                    
+                    <div class="swiper-slide ">
+                        <div class="comunidad-option">
+                            <h2>Cultural Tours in Buenos Aires</h2>
+                            <p>Meet the city with participatory tours that combine urban art, heritage and sensitive mapping
+                            </p> 
+                        </div>   
+                    </div>
+                    
+                    <div class="swiper-slide ">
+                        <div class="comunidad-option">
+                            <h2>Twerk classes and urban dances</h2>
+                            <p>Learn some twerk steps, levels from 0 to advanced.
+                            </p>
+                        </div>   
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination pagination-community"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev navigation-community-prev" ></div>
+                <div class="swiper-button-next navigation-community-next"></div>
+            </div>
+        </section>
+
+        <!-------------- COMMENTS --------------->
+        <section class="comentarios ">
+            <!-- Slider main container -->
+            <div class="swiper-autoplay comentarios-container observer">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class=" swiper-slide comentarios-slide"> 
+                        <div class="comments-card">
+                            <div class="comments-cards-head">
+                                <img src="./assets/images/img.png" alt="">
+                                <h2 >Karen Smith</h2>
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Nobis magni sit dolores delectus architecto eaque quasi impedit
+                            </p>
+                        </div>               
+                    </div>
+
+                    <div class="swiper-slide comentarios-slide ">
+                        <div class="comments-card">
+                            <div class="comments-cards-head">
+                                <img src="./assets/images/img.png" alt="">
+                                <h2>Carl Johnson</h2>
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Nobis magni sit dolores delectus architecto eaque quasi impedit
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide comentarios-slide ">
+                        <div class="comments-card">
+                            <div class="comments-cards-head">
+                                <img src="./assets/images/img.png" alt="">
+                                <h2>James Lee</h2>
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Nobis magni sit dolores delectus architecto eaque quasi impedit
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide comentarios-slide ">
+                        <div class="comments-card">
+                            <div class="comments-cards-head">
+                                <img src="./assets/images/img.png" alt="">
+                                <h2>James Lee</h2>
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Nobis magni sit dolores delectus architecto eaque quasi impedit
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination4"></div>
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+            </div>
+        </section>
+
+        <!------------- CONTACT ------------>
+        <section class="contacto" id="contacto">
+          <div class="contacto_section observer">
+            <h2 style="font-size: 40px;">Contact us</h2>
+            <span><i class="fas fa-map-marker-alt" style="font-size: 15px; margin: 0 5px 0 15px;"></i>Malabia 2145, Ciudad Autonoma de Buenos Aires, Argentina</span>
+            <span><i class="fas fa-mobile-alt"style="font-size: 15px; margin: 0 5px;"></i>15 XXXXXXXX</span>
+            <span><i class="far fa-envelope" style="font-size: 15px; margin: 0 5px 60px 0;"></i>info@solbuenosaires.com</span>
+
+            <div >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.047599184929!2d-58.42363576683955!3d-34.58711188096951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5a4b2248ccb%3A0xd8dc58fb5b774090!2sSOL%20-%20Spanish%20Online%20%26%20In%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635739026095!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="col-footer">
+                <img src="./assets/images/logofooter.png" class="footer-logo">
+                <p>Malabia 2145, Ciudad Autonoma de Buenos Aires, Argentina</p>
+            </div>
+
+            <div class="col-footer">
+                <h6>About Company</h6>                
+                <a href="./en/contact.html" class="btn-footer"> Contact Us</a>
+            </div>
+
+            <div class="col-footer">
+                <div class="col-md-6 px-4">
+                  <h6>Help us</h6>
+                    <ul>
+                        <li> <a href="#"> Home</a> </li>
+                        <li> <a href="./en/programs.html"> Programs</a> </li>
+                        <li> <a href="./en/aboutus.html"> About Us</a> </li>
+                        <li> <a href="./en/contact.html"> Contact</a> </li>
+                        <li> <a href="./en/faqs.html"> FAQs</a> </li>
+                    </ul>
+                </div>
+
+                <!-- <div class="col-md-6 ">
+                  <h6>Social Media</h6>
+                  <div class="social">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="./src/app.js" type="module"></script>
+    <script src="./src/swiper.js"></script>
+</html>

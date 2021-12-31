@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOL Buenos Aires</title>
+  <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <link rel="stylesheet" href="../styles/normalize.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet" />
+
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+  <!-- --- -->
+
+  <title>SOL Buenos Aires</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="navlogo">
+                <img src="../assets/images/logonavbar.png" alt="">
+            </a>
+            <div class="navbar" id="navbar">
+                <a class="active"><img src="../assets/images/logonavbar.png" alt=""> </a>              
+                <a href="#" >Inicio</a>
+                <a href="./programs_es.html">Programas</a>
+                <a href="./aboutus_es.html">Nosotros</a>
+                <a href="./contact_es.html">Contacto</a>
+                <a href="./faqs_es.html">FAQs</a>
+                <a href="./.html" class="flag-nav">Ingles<img src="../assets/reino-unido.png" class="en en-responsive" id="flag" name="en"></a>      
+                <a href="#" class="flag-nav">Español Latino<img src="../assets/argentina.png" class="es es-responsive" id="flag" name="es"></a>       
+                <a href="javascript:void(0);" class="icon" id="hamburger">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="navflags">
+                <div id="lang-switch">
+                    <a><img src="../assets/argentina.png" class="es active-flag active"></a>
+                    <a href="../index.html"><img src="../assets/reino-unido.png" class="en"></a>
+                </div>
+            </div>
+        </nav>       
+    </header>
+    <section class="section-titulo">
+        <div class="div-titulo">
+            <div class="bubble-titulo"></div>
+            <h1>Programs</h1>
+        </div>
+    </section>
+    <main>
+        <div class="container-full">
+            <div class="goals-img1"><img src="../assets/ilustraciones/ilus 4.png" alt=""></div>
+            <div class="goals-img2"><img src="../assets/ilustraciones/ilus 5.png" alt=""></div>
+            <!-- SWIPER GOALS MAX-WIDTH 768PX -->
+            <div class="goals responsive-goals observer">            
+                <div class="container">
+                    <div class="goals-icon">
+                        <i class="fas fa-user-friends" style="font-size:60px; margin-bottom: 20px;"></i>
+                    </div>
+                    <div class="goals-head">
+                        <h2>Clases a medida</h2>
+                    </div>
+                    <div class="goals-body">
+                        <p>Diseñamos un programa que se ajusta a tu tiempo, tus objetivos y tu estilo de aprendizaje. El profesor se enfocará en lo que necesitás.
+                            Para todos los niveles de 0 a avanzado                       
+                        </p>
+                    </div>  
+                </div>
+
+                <div class="container swiper-autoplay" id="bubble-container">
+                    <div class="swiper-wrapper" id="bubble-swiper">
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-comment-dots"style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Clases uno a uno</h2>                
+                                <p>Comunicación inmediata.
+                                    Elevá tu nivel rápidamente
+                                    </p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-lightbulb" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Más práctica</h2>                
+                                <p>Aumentá tu seguridad, precisión y fluidez </p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-user-friends" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Programa personalizado </h2>                
+                                <p>Seguí tus preferencias e intereses
+                                    Ampliá conocimientos a partir de tu red
+                                    </p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-map" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Tu propio  ritmo </h2>                
+                                <p>Agendá las clases cuando más te convenga y avanzá a tu tiempo.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination programs-pagination-goals"></div>
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                </div>
+
+                <div class="responsive-div-bottoms">
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20saber%20mas%20sobre%20las%20clases%20personalizadas." class="a-programs-responsive">Hablá con nosotros</a>
+                    </div>
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20probar%20una%20clase%20personalizada%20gratis." class="a-programs-responsive">Quiero una clase de prueba gratis</a>
+                    </div>                        
+                </div>
+            </div>         
+            
+            <!--- FULL GOALS --->
+            <div class="goals full-goals observer">
+                <div class="container">
+                    <div class="goals-icon">
+                        <i class="fas fa-user-friends" style="font-size:60px; margin-bottom: 20px;"></i>
+                    </div>
+                    <div class="goals-head">
+                        <h2>Clases a medida</h2>
+                    </div>
+                    <div class="goals-body">
+                        <p>Diseñamos un programa que se ajusta a tu tiempo, tus objetivos y tu estilo de aprendizaje. El profesor se enfocará en lo que necesitás. Para todos los niveles de 0 a avanzado                          
+                        </p>
+                    </div>  
+                    <div>
+                        <div style="margin-bottom: 30px;">
+                            <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20saber%20mas%20sobre%20las%20clases%20personalizadas." class="a-programs-full">Hablá con nosotros</a>
+                        </div>
+                        <div style="margin-bottom: 30px;">
+                            <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20probar%20una%20clase%20personalizada%20gratis" class="a-programs-full">Quiero una clase de prueba gratis</a>
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="bubble ">
+                        <div class="bubble-div">
+                            <i class="far fa-comment-dots"style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Clases uno a uno</h2>                
+                            <p>Comunicación inmediata.
+                                Elevá tu nivel rápidamente
+                                </p>
+                        </div>
+                    </div>
+
+                    <div class="bubble bubble-relative">
+                        <div class="bubble-div">
+                            <i class="far fa-lightbulb" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Más práctica</h2>                
+                            <p>Aumentá tu seguridad, precisión y fluidez </p>
+                        </div>
+                    </div>
+                    
+                    <div class="bubble">
+                        <div class="bubble-div">
+                            <i class="far fa-user-friends" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Programa personalizado </h2>                
+                            <p>Seguí tus preferencias e intereses.Ampliá conocimientos a partir de tu red/p>
+                        </div>
+                    </div>
+
+                    <div class="bubble bubble-relative">
+                        <div class="bubble-div">
+                            <i class="far fa-map" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Tu propio  ritmo </h2>                
+                            <p>Agendá las clases cuando más te convenga y avanzá a tu tiempo.</p>
+                        </div>
+                    </div>              
+                </div>            
+            </div>        
+        </div>
+
+        <div class=" goalsClone1">
+            <!-- SWIPER GOALS MAX-WIDTH 768PX -->
+            <div class="goals responsive-goals observer">            
+                <div class="container">
+                    <div class="goals-icon">
+                        <i class="fas fa-palette" style="font-size:50px;margin-bottom: 20px;"></i>
+                    </div>
+                    <div class="goals-head">
+                        <h2>Lengua y cultura</h2>
+                    </div>
+                    <div class="goals-body">
+                        <p>Expandí y practicá tu español mientras aprendés todos los aspectos más interesantes de la cultura latinoamericana. 
+                            <br>
+                            Para todos los niveles, desde principiante a avanzado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container swiper-autoplay" id="bubble-container">
+                    <div class="swiper-wrapper" id="bubble-swiper">
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-comment-dots"style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Desbloqueá tu español</h2>                
+                                <p>Entrená cada ítem del programa de español de forma flexible e integrada</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-lightbulb" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Sumergite en la cultura</h2>                
+                                <p>Mejorá tu experiencia al viajar, vivir, o trabajar en Latinoamérica.</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-user-friends" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Desarrollá tus habilidades </h2>                
+                                <p>Ganá autonomía e independencia y perfeccioná tu estilo de comunicaciónc/p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-map" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Profesores especializados</h2>                
+                                <p>Y muy buena onda, para guiarte en tu aprendizaje</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination programs-pagination-goals"></div>
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                </div>
+
+                    <div class="responsive-div-bottoms">
+                        <div style="margin-bottom: 30px;">
+                            <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20saber%20mas%20sobre%20las%20clases%20de%20Lengu%20y%20Cultura." class="a-clone">Hablá con nostros</a>
+                        </div>
+                        <div style="margin-bottom: 30px;">
+                            <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20probar%20una%20clase%20de%20Lengua%20y%20Cultura%20gratis." class="a-clone">Quiero una clase de prueba gratis</a>
+                        </div>                        
+                    </div>
+
+            </div>         
+            
+            <!--- FULL GOALS --->
+            <div class="goals full-goals observer  ">
+                <div class="container">
+                    <div class="goals-icon">
+                        <i class="fas fa-palette" style="font-size:50px;margin-bottom: 20px;"></i>
+                    </div>
+                    <div class="goals-head">
+                        <h2>Lengua y Cultura</h2>
+                    </div>
+                    <div class="goals-body">
+                        <p>Expandí y practicá tu español mientras aprendés todos los aspectos más interesantes de la cultura latinoamericana. 
+                            <br>Para todos los niveles, desde 0 a avanzado.
+                        </p>
+                    </div>
+                    <div>
+                        <div style="margin-bottom: 30px;">
+                            <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20saber%20mas%20sobre%20las%20clases%20de%20Lengu%20y%20Cultura." class=" a-clone">Hablá con nostros</a>
+                        </div>
+                        <div style="margin-bottom: 30px;">
+                            <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20probar%20una%20clase%20de%20Lengua%20y%20Cultura%20gratis." class=" a-clone ">Quiero una clase de prueba gratis</a>
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="bubble ">
+                        <div class="bubble-div">
+                            <i class="far fa-comment-dots"style="font-size:30px;margin-top:20px"></i>
+                            <h2>Desbloqueá tu español</h2>                
+                            <p>Entrená cada ítem del programa de español de forma flexible e integrada</p>
+                        </div>
+                    </div>
+
+                    <div class="bubble bubble-relative">
+                        <div class="bubble-div">
+                            <i class="far fa-lightbulb" style="font-size:30px;;margin-top:20px"></i>
+                            <h2>Sumergite en la cultura</h2>                
+                            <p>Mejorá tu experiencia al viajar, vivir, o trabajar en Latinoamérica.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bubble">
+                        <div class="bubble-div">
+                            <i class="far fa-user-friends" style="font-size:30px;;margin-top:20px"></i>
+                            <h2>Desarrollá tus habilidades </h2>                
+                            <p>Ganá autonomía e independencia y perfeccioná tu estilo de comunicación</p>
+                        </div>
+                    </div>
+
+                    <div class="bubble bubble-relative">
+                        <div class="bubble-div">
+                            <i class="far fa-map" style="font-size:30px;;margin-top:20px"></i>
+                            <h2>Profesores especializados</h2>                
+                            <p>Y muy buena onda, para guiarte en tu aprendizaje</p>
+                        </div>
+                    </div>              
+                </div>            
+            </div>        
+        </div>
+
+        <div class=" goalsClone2">
+            <div class="goals-img1"><img src="../assets/ilustraciones/ilus 4.png" alt=""></div>
+            <div class="goals-img2"><img src="../assets/ilustraciones/ilus 5.png" alt=""></div>
+            <!-- SWIPER GOALS MAX-WIDTH 768PX -->
+            <div class="goals responsive-goals observer">            
+                <div class="container">
+                    <div class="goals-icon">
+                        <i class="fas fa-university" style="font-size:50px;margin-bottom:20px;"></i>
+                    </div>
+                    <div class="goals-head">
+                        <h2>Universidad y Trabajo</h2>
+                    </div>
+                    <div class="goals-body">
+                        <p>Perfeccioná tu performance académica y profesional y abrí las puertas a nuevas oportunidades.                
+                            <br><br>Para niveles intermedio y avanzado
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container swiper-autoplay" id="bubble-container">
+                    <div class="swiper-wrapper" id="bubble-swiper">
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-comment-dots"style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Presentaciones de trabajo</h2>                
+                                <p>Ganá seguridad, confianza y precisión para hablar español frente a tu audiencia.</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-lightbulb" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Presentaciones académicas</h2>                
+                                <p>Expresá tus  ideas con elocuencia y entrená oratoria para obtener buenos resultados.</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-user-friends" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Informes escritos </h2>                
+                                <p>Mejorá tu escritura siguiendo los requerimientos específicos de tu profesión</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-map" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Taller de escritura de textos académicos</h2>                
+                                <p>Familiarizate con el género académico en español para escribir textos  propios</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination programs-pagination-goals"></div>
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                </div>
+
+                <div class="responsive-div-bottoms">
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20saber%20mas%20sobre%20las%20clases%20de%University%20and%20Work." class="a-programs-responsive">Hablá con nosotros</a>
+                    </div>
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20probar%20una%20clase%20de%20University%20and%20Work%20gratis." class="a-programs-responsive">Quiero una clase de prueba gratis</a>
+                    </div>                        
+                </div>
+            </div>         
+            
+            <!--- FULL GOALS --->
+            <div class="goals full-goals observer  ">
+                <div class="container">
+                    <div class="goals-icon">
+                        <i class="fas fa-university" style="font-size:50px;margin-bottom:20px;"></i>
+                    </div>
+                    <div class="goals-head">
+                        <h2>Universidad y Trabajo</h2>
+                    </div>
+                    <div class="goals-body">
+                        <p>Perfeccioná tu performance académica y profesional y abrí las puertas a nuevas oportunidades.               
+                            <br><br>Para niveles intermedio y avanzado.
+                        </p>
+                    </div>
+                    <div>
+                        <div style="margin-bottom: 30px;">
+                            <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20saber%20mas%20sobre%20las%20clases%20de%University%20and%20Work." class="a-programs-full">Hablá con nosotros</a>
+                        </div>
+                        <div style="margin-bottom: 30px;">
+                            <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20probar%20una%20clase%20de%20University%20and%20Work%20gratis." class="a-programs-full">Quiero una clase de prueba gratis</a>
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="bubble ">
+                        <div class="bubble-div">
+                            <i class="far fa-comment-dots"style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Presentaciones de trabajo</h2>                
+                            <p>Ganá seguridad, confianza y precisión para hablar español frente a tu audiencia.</p>
+                        </div>
+                    </div>
+
+                    <div class="bubble bubble-relative">
+                        <div class="bubble-div">
+                            <i class="far fa-lightbulb" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Presentaciones académicas</h2>                
+                            <p>Expresá tus  ideas con elocuencia y entrená oratoria para obtener buenos resultados.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bubble">
+                        <div class="bubble-div">
+                            <i class="far fa-user-friends" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Informes escritos </h2>                
+                            <p>Mejorá tu escritura siguiendo los requerimientos específicos de tu profesión</p>
+                        </div>
+                    </div>
+
+                    <div class="bubble bubble-relative">
+                        <div class="bubble-div">
+                            <i class="far fa-map" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                            <h2>Taller de escritura de textos académicos</h2>                
+                            <p>Familiarizate con el género académico en español para escribir textos  propios</p>
+                        </div>
+                    </div>              
+                </div>            
+            </div>        
+        </div>
+
+        <div class=" goalsClone3">          
+            <!-- SWIPER GOALS MAX-WIDTH 768PX -->
+            <div class="goals responsive-goals observer">            
+                <div class="container">
+                    <div class="goals-icon">
+                        <i class="fas fa-photo-video" style="font-size:50px;margin-bottom:20px;"></i>
+                    </div>
+                    <div class="goals-head">
+                        <h2>Cine en español </h2>
+                    </div>
+                    <div class="goals-body">
+                        <p>Si te gusta el cine y querés subir tu nivel de español, ¿qué mejor que practicar mirando películas y conversando? ¡Sumate al programa de español y cine! 
+                            <br><br>Para niveles intermedio y avanzado                    
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container swiper-autoplay" id="bubble-container">
+                    <div class="swiper-wrapper" id="bubble-swiper">
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-comment-dots"style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Perfeccioná tu comprensión</h2>                
+                                <p>Aprendé español con material audiovisual auténtico, original y creativo</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-lightbulb" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Conocé más sobre Latinoamérica.</h2>                
+                                <p>Ampliá tu panorama en diálogo con los directores hispanoamericanos</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-user-friends" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Optimizá tu español</h2>                
+                                <p>Participá de debates, intercambiá puntos de vista y mejorá tu conversación</p>
+                            </div>
+                        </div>
+
+                        <div class="bubble swiper-slide">
+                            <div class="bubble-div">
+                                <i class="far fa-map" style="font-size:30px;color: var(--orange);margin-top:20px"></i>
+                                <h2>Compartí información</h2>                
+                                <p>Participá de debates, intercambiá puntos de vista y mejorá tu conversación</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination programs-pagination-goals"></div>
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                </div>
+
+                <div class="responsive-div-bottoms">
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20saber%20mas%20sobre%20las%20clases%20de%20Latin%20American%20Films." class="a-clone">Hablá con nosotros</a>
+                    </div>
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20probar%20una%20clase%20de%Latin%20American%20Films%20gratis." class="a-clone">Quiero una clase de prueba gratis</a>
+                    </div>                        
+                </div>
+
+            </div>         
+            
+            <!--- FULL GOALS --->
+            <div class="goals full-goals observer  ">
+                <div class="container">
+                    <div class="goals-icon">
+                        <i class="fas fa-photo-video" style="font-size:50px;margin-bottom:20px;"></i>
+                    </div>
+                    <div class="goals-head">
+                        <h2>Cine en español</h2>
+                    </div>
+                    <div class="goals-body">
+                        <p>Si te gusta el cine y querés subir tu nivel de español, ¿qué mejor que practicar mirando películas y conversando? ¡Sumate al programa de español y cine! 
+                            <br><br>Para niveles intermedio y avanzado                        
+                        </p>
+                    </div>
+                    <div>
+                        <div style="margin-bottom: 30px;">
+                            <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20saber%20mas%20sobre%20las%20clases%20de%20Latin%20American%20Films." class=" a-clone">Hablá con nosotros</a>
+                        </div>
+                        <div style="margin-bottom: 30px; ">
+                            <a href="https://wa.me/+5491132146309?text=Hola%21%20Quisiera%20probar%20una%20clase%20de%Latin%20American%20Films%20gratis." class="a-clone">Quiero una clase de prueba gratis</a>
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="bubble ">
+                        <div class="bubble-div">
+                            <i class="far fa-comment-dots"style="font-size:30px;color: var(--white);margin-top:20px"></i>
+                            <h2>Perfeccioná tu comprensión</h2>                
+                            <p>Aprendé español con material audiovisual auténtico, original y creativo</p>
+                        </div>
+                    </div>
+
+                    <div class="bubble bubble-relative">
+                        <div class="bubble-div">
+                            <i class="far fa-lightbulb" style="font-size:30px;color: --var(white);margin-top:20px"></i>
+                            <h2>Conocé más sobre Latinoamérica.</h2>                
+                            <p>Ampliá tu panorama en diálogo con los directores hispanoamericanos</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bubble">
+                        <div class="bubble-div">
+                            <i class="far fa-user-friends" style="font-size:30px;color: --var(white);margin-top:20px"></i>
+                            <h2>Optimizá tu español</h2>                
+                            <p>Conocé las variantes de los diferentes países mientras explorás la filmografía local </p>
+                        </div>
+                    </div>
+
+                    <div class="bubble bubble-relative">
+                        <div class="bubble-div">
+                            <i class="far fa-map" style="font-size:30px;color: --var(white);margin-top:20px"></i>
+                            <h2>Compartí información</h2>                
+                            <p>Participá de debates, intercambiá puntos de vista y mejorá tu conversación</p>
+                        </div>
+                    </div>              
+                </div>            
+            </div>        
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="col-footer">
+                <img src="../assets/images/logofooter.png" class="footer-logo">
+                <p>Malabia 2145, Ciudad Autonoma de Buenos Aires, Argentina</p>
+            </div>
+  
+            <div class="col-footer">
+                <h6>Sobre Nosotros</h6>
+                <a href="./contact_es.html" class="btn-footer"> Contactanos </a>
+            </div>
+  
+            <div class="col-footer">
+                <div class="col-md-6 px-4">
+                  <h6>Ayuda</h6>
+                    <ul>
+                        <li> <a href="./index_es.html"> Inicio</a> </li>
+                        <li> <a href="./programs_es.html"> Programas</a> </li>
+                        <li> <a href="./aboutus_es.html"> Nosotros</a> </li>
+                        <li> <a href="./contact_es.html"> Contacto</a> </li>
+                        <li> <a href="./faqs_es.html"> FAQs</a> </li>
+                    </ul>
+                </div>
+  
+                <!-- <div class="col-md-6 ">
+                  <h6>Social Media</h6>
+                  <div class="social">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="../src/app.js" type="module"></script>
+    <script src="../src/swiper.js"></script>
+</html>
